@@ -1,9 +1,14 @@
 const Nav = ({ route }) => {
     return (
-        <div>
+        <div className="mt-4 md:mt-0">
             <ul>
-                <li className="hover:bg-white hover:text-black px-32 py-3 md:bg-transparent" key={route.path}>
-                    <a href={route.path}>{route.name}</a>
+                <li
+                    className="hover:bg-white hover:text-black hover:rounded-lg px-28 md:px-6 py-3 md:py-2 transition-all 
+                    duration-200 ease-in-out md:bg-transparent text-center"
+                >
+                    <a href={route.path} className="">
+                        {route.name}
+                    </a>
                 </li>
             </ul>
         </div>
@@ -11,4 +16,3 @@ const Nav = ({ route }) => {
 };
 
 export default Nav;
-
