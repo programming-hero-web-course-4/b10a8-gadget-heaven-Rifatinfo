@@ -1,0 +1,138 @@
+[
+    {
+      "id": 1,
+      "name": "Smartphone X1",
+      "price": 699.99,
+      "description": "A high-performance smartphone with cutting-edge features.",
+      "stock": "in stock",
+      "specification": {
+        "Display": "6.5-inch OLED",
+        "Processor": "Snapdragon 888",
+        "Battery": "4500mAh",
+        "Camera": "108MP Triple Camera"
+      },
+      "rating": 4.8,
+      "image": "https://img.freepik.com/premium-photo/smartphone-smartwatch_44344-2220.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Wireless Earbuds Pro",
+      "price": 149.99,
+      "description": "Noise-cancelling wireless earbuds with premium sound quality.",
+      "stock": "in stock",
+      "specification": {
+        "Battery Life": "8 hours",
+        "Connectivity": "Bluetooth 5.2",
+        "Water Resistance": "IPX4",
+        "Charging Case": "24 hours additional playback"
+      },
+      "rating": 4.7,
+      "image": "https://example.com/images/wireless-earbuds-pro.jpg"
+    },
+    {
+      "id": 3,
+      "name": "4K Smart TV",
+      "price": 999.99,
+      "description": "Ultra HD smart TV with voice control and streaming support.",
+      "stock": "in stock",
+      "specification": {
+        "Screen Size": "55 inches",
+        "Resolution": "3840 x 2160",
+        "Smart Features": "Yes",
+        "HDR": "Dolby Vision"
+      },
+      "rating": 4.9,
+      "image": "https://example.com/images/4k-smart-tv.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Gaming Laptop Z5",
+      "price": 1299.99,
+      "description": "Powerful gaming laptop with advanced graphics.",
+      "stock": "in stock",
+      "specification": {
+        "Processor": "Intel Core i7",
+        "Graphics": "NVIDIA RTX 3060",
+        "RAM": "16GB DDR4",
+        "Storage": "1TB SSD"
+      },
+      "rating": 4.6,
+      "image": "https://example.com/images/gaming-laptop-z5.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Smartwatch GT",
+      "price": 199.99,
+      "description": "Fitness-focused smartwatch with customizable watch faces.",
+      "stock": "out of stock",
+      "specification": {
+        "Battery Life": "7 days",
+        "Waterproof": "5ATM",
+        "Display": "AMOLED",
+        "Connectivity": "Bluetooth 5.0"
+      },
+      "rating": 4.5,
+      "image": "https://example.com/images/smartwatch-gt.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Bluetooth Speaker Mini",
+      "price": 59.99,
+      "description": "Compact and portable Bluetooth speaker with deep bass.",
+      "stock": "in stock",
+      "specification": {
+        "Battery Life": "10 hours",
+        "Output": "10W",
+        "Bluetooth Range": "30 feet",
+        "Weight": "500g"
+      },
+      "rating": 4.4,
+      "image": "https://example.com/images/bluetooth-speaker-mini.jpg"
+    },
+    {
+      "id": 7,
+      "name": "DSLR Camera 900D",
+      "price": 799.99,
+      "description": "Professional DSLR camera with 24.2MP sensor.",
+      "stock": "in stock",
+      "specification": {
+        "Resolution": "24.2MP",
+        "Lens Mount": "EF/EF-S",
+        "ISO Range": "100-25600",
+        "Video Quality": "4K"
+      },
+      "rating": 4.7,
+      "image": "https://example.com/images/dslr-camera-900d.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Smart Home Assistant",
+      "price": 129.99,
+      "description": "AI-powered home assistant with voice control.",
+      "stock": "out of stock",
+      "specification": {
+        "Voice Control": "Yes",
+        "Speakers": "2-way audio",
+        "Connectivity": "Wi-Fi, Bluetooth",
+        "Compatibility": "iOS, Android"
+      },
+      "rating": 4.6,
+      "image": "https://example.com/images/smart-home-assistant.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Portable Charger 20K",
+      "price": 39.99,
+      "description": "High-capacity portable charger for multiple devices.",
+      "stock": "in stock",
+      "specification": {
+        "Capacity": "20000mAh",
+        "Output Ports": "3",
+        "Fast Charging": "Yes",
+        "Weight": "350g"
+      },
+      "rating": 4.8,
+      "image": "https://example.com/images/portable-charger-20k.jpg"
+    }
+  ]
+  

@@ -28,7 +28,7 @@ const Navbar = () => {
             <div
                 className={`md:flex md:justify-between md:items-center md:gap-10 transition-all md:bg-transparent duration-300 ease-in-out 
                 ${open ? "top-0 bg-[#9538E2]" : "-top-64"} absolute md:static w-full md:h-auto h-screen 
-                text-white md:text-black text-xl z-10`}
+                text-white md:text-black text-lg z-10`}
             >
                 {/* Logo Section */}
                 <div className="justify-center items-center md:flex hidden">
