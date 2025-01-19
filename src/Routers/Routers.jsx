@@ -17,12 +17,12 @@ const router = createBrowserRouter([
         {
           path: "/",
           element: <Home/>,
-          loader : () => fetch("gadget.json")
+          loader : () => fetch("https://openapi.programming-hero.com/api/phones?search=iphone")
         },
         {
-          path: "/gadget/:id",
+          path: "/gadget/:slug",
           element: <GadgetDetails/>,
-          loader : () => fetch()
+          loader : ({params}) => fetch(`https://openapi.programming-hero.com/api/phone/${params.slug}`)
         },
         {
           path: "/statistics",

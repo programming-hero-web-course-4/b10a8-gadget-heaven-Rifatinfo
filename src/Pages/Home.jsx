@@ -3,7 +3,7 @@ import { Link, useLoaderData} from "react-router";
 const Home = () => {
     const gadgets = useLoaderData();
     console.log(gadgets);
-    const {id} = gadgets;
+    // const {brand,phone_name,slug,image} = gadgets;
     return (
         <div className="mt-10">
             <div className="border md:flex md:gap-4">
@@ -11,18 +11,18 @@ const Home = () => {
                 <div className="w-4/5 border">
                     <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:grid-4">
                         {
-                            gadgets.map(gadget => <>
+                            gadgets.data.map(gadget => <>
                                 <div className="card bg-base-100 shadow-xl">
                                     <figure>
                                         <img
-                                            src="https://img.freepik.com/premium-photo/smartphone-smartwatch_44344-2220.jpg"
+                                            src={gadget.image}
                                             alt="" />
                                     </figure>
                                     <div className="card-body">
                                         <h2 className="card-title">{gadget.phone_name}</h2>
-                                        <p>Price : {gadget.price} TK</p>
+                                        <p><span className="font-semibold">Brand :</span> {gadget.brand}</p>
                                         <div className="card-actions justify-start">
-                                            <Link to={`/gadget/${gadget.id}`}>
+                                            <Link to={`/gadget/${gadget.slug}`}>
                                                 <button className="btn btn-outline text-[#9538E2]">View Details</button>
                                             </Link>
                                         </div>
