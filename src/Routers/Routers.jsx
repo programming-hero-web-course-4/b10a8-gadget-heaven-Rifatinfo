@@ -5,6 +5,7 @@ import Error from "../Pages/Error";
 import Statistics from "../Components/Statistics/Statistics";
 import Dashboard from "../Components/Dashboard/Dashboard";
 import GadgetDetails from "../Pages/GadgetDetails";
+import Login from "../Pages/Login";
 
 
 
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
         {
           path: "/dashboard",
           element: <Dashboard/>,
+        },
+        {
+          path: "/login",
+          element: <Login/>,
         },
       ],
     },

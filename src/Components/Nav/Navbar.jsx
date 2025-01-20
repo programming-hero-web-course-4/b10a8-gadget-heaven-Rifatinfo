@@ -4,6 +4,8 @@ import { FaCartShopping } from "react-icons/fa6";
 import { GiSelfLove } from "react-icons/gi";
 import { IoMenu } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
+import { LuCircleUserRound } from "react-icons/lu";
+import { Link } from "react-router";
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
@@ -46,6 +48,9 @@ const Navbar = () => {
                 <div className="flex justify-center items-center gap-4 mt-6 md:mt-0">
                     <FaCartShopping className="cursor-pointer" />
                     <GiSelfLove className="cursor-pointer" />
+                    <Link to="/login" className="cursor-pointer">
+                        <LuCircleUserRound  /> {/* Adjust the size as needed */}
+                    </Link>
                 </div>
             </div>
         </div>
