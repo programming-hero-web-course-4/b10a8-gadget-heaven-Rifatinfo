@@ -1,7 +1,8 @@
 import { NavLink } from "react-router-dom"; // Correct import
 const Nav = ({ route }) => {
     return (
-        <div className="mt-4 md:mt-0">
+        <div>
+            <div className="mt-4 md:mt-0">
             <ul>
                 <li
                     className="hover:bg-white hover:text-black hover:rounded-lg px-28 md:px-6 py-3 md:py-2 transition-all 
@@ -19,6 +20,7 @@ const Nav = ({ route }) => {
                     </NavLink>
                 </li>
             </ul>
+        </div>
         </div>
     );
 };

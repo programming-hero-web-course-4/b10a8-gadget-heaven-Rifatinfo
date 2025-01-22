@@ -1,6 +1,7 @@
 import {  useLoaderData, useParams } from "react-router-dom";
 import { IoMdStarHalf } from "react-icons/io";
 import { GiSelfLove } from "react-icons/gi";
+import { addToStoredReadList, addToStoredWishList } from "../Utility/localstorage";
 
 const GadgetDetails = () => {
     const details = useLoaderData();
@@ -10,6 +11,13 @@ const GadgetDetails = () => {
     const clickAbleData =  details.find(phone => phone.id === idInt);
     console.log(clickAbleData);
     const {image,name,description,rating,stock,specification} = clickAbleData;
+
+    const handAddToCart = id =>{
+        addToStoredReadList(id);
+    }
+    const handleWishList = id =>{
+        addToStoredWishList(id);
+    }
     return (
         <div className="mt-12">
              <div></div>
@@ -43,8 +51,8 @@ const GadgetDetails = () => {
                    </div>
                    {/* button */}
                    <div className="flex gap-3 items-center">
-                   <button className="bg-[#9538E2] text-white px-4 py-3 rounded-xl mt-2">Add To Cart</button>
-                   <p className="text-2xl border rounded-full p-2 bg-slate-100 mt-2"> <GiSelfLove className="cursor-pointer" /></p>
+                   <button onClick={() => handAddToCart(id)} className="bg-[#9538E2] text-white px-4 py-3 rounded-xl mt-2">Add To Cart</button>
+                   <p onClick={() => handleWishList(id)} className="text-2xl border rounded-full p-2 bg-slate-100 mt-2"> <GiSelfLove className="cursor-pointer" /></p>
                    </div>
                 </div>
              </div>

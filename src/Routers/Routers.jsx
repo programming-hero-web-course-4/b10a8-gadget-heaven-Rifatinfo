@@ -30,6 +30,7 @@ const router = createBrowserRouter([
         {
           path: "/dashboard",
           element: <Dashboard/>,
+          loader : () => fetch("gadget.json")
         },
         {
           path: "/login",

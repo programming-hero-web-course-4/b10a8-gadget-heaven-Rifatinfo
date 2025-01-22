@@ -17,7 +17,7 @@ const Navbar = () => {
     ];
 
     return (
-        <div className="relative">
+        <div className="relative max-w-6xl mx-auto">
             {/* Menu Button for Mobile */}
             <div
                 onClick={() => setOpen(!open)}
