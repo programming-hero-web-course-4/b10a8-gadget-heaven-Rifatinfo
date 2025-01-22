@@ -7,8 +7,6 @@ import Dashboard from "../Components/Dashboard/Dashboard";
 import GadgetDetails from "../Pages/GadgetDetails";
 import Login from "../Pages/Login";
 
-
-
 const router = createBrowserRouter([
     {
       path: "/",
@@ -18,12 +16,12 @@ const router = createBrowserRouter([
         {
           path: "/",
           element: <Home/>,
-          loader : () => fetch("https://openapi.programming-hero.com/api/phones?search=iphone")
+          loader : () => fetch("gadget.json")
         },
         {
-          path: "/gadget/:slug",
+          path: "/gadget/:id",
           element: <GadgetDetails/>,
-          loader : ({params}) => fetch(`https://openapi.programming-hero.com/api/phone/${params.slug}`)
+          loader : () => fetch("gadget.json")
         },
         {
           path: "/statistics",

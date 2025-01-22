@@ -12,14 +12,14 @@
         "Camera": "108MP Triple Camera"
       },
       "rating": 4.8,
-      "image": "https://img.freepik.com/premium-photo/smartphone-smartwatch_44344-2220.jpg"
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-mini.jpg"
     },
     {
       "id": 2,
       "name": "Wireless Earbuds Pro",
       "price": 149.99,
       "description": "Noise-cancelling wireless earbuds with premium sound quality.",
-      "stock": "in stock",
+      "stock": "out of stock",
       "specification": {
         "Battery Life": "8 hours",
         "Connectivity": "Bluetooth 5.2",
@@ -27,7 +27,7 @@
         "Charging Case": "24 hours additional playback"
       },
       "rating": 4.7,
-      "image": "https://example.com/images/wireless-earbuds-pro.jpg"
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro.jpg"
     },
     {
       "id": 3,
@@ -42,7 +42,7 @@
         "HDR": "Dolby Vision"
       },
       "rating": 4.9,
-      "image": "https://example.com/images/4k-smart-tv.jpg"
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro-max.jpg"
     },
     {
       "id": 4,
@@ -57,7 +57,7 @@
         "Storage": "1TB SSD"
       },
       "rating": 4.6,
-      "image": "https://example.com/images/gaming-laptop-z5.jpg"
+      "image":"https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg"
     },
     {
       "id": 5,
@@ -72,7 +72,7 @@
         "Connectivity": "Bluetooth 5.0"
       },
       "rating": 4.5,
-      "image": "https://example.com/images/smartwatch-gt.jpg"
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max-.jpg"
     },
     {
       "id": 6,
@@ -87,14 +87,14 @@
         "Weight": "500g"
       },
       "rating": 4.4,
-      "image": "https://example.com/images/bluetooth-speaker-mini.jpg"
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro--.jpg"
     },
     {
       "id": 7,
       "name": "DSLR Camera 900D",
       "price": 799.99,
       "description": "Professional DSLR camera with 24.2MP sensor.",
-      "stock": "in stock",
+      "stock": "out of stock",
       "specification": {
         "Resolution": "24.2MP",
         "Lens Mount": "EF/EF-S",
@@ -102,7 +102,7 @@
         "Video Quality": "4K"
       },
       "rating": 4.7,
-      "image": "https://example.com/images/dslr-camera-900d.jpg"
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg"
     },
     {
       "id": 8,
@@ -117,7 +117,7 @@
         "Compatibility": "iOS, Android"
       },
       "rating": 4.6,
-      "image": "https://example.com/images/smart-home-assistant.jpg"
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-mini.jpg"
     },
     {
       "id": 9,
@@ -132,7 +132,97 @@
         "Weight": "350g"
       },
       "rating": 4.8,
-      "image": "https://example.com/images/portable-charger-20k.jpg"
-    }
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-se-2020.jpg"
+    },
+      {
+        "id": 10,
+        "name": "Portable Charger 10K",
+        "price": 29.99,
+        "description": "Compact portable charger for travel and everyday use.",
+        "stock": "in stock",
+        "specification": {
+          "Capacity": "10000mAh",
+          "Output Ports": "2",
+          "Fast Charging": "Yes",
+          "Weight": "200g"
+        },
+        "rating": 4.5,
+        "image":"https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11-pro.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Wireless Charger Pad",
+        "price": 19.99,
+        "description": "Slim wireless charging pad with fast-charging capability.",
+        "stock": "out of stock",
+        "specification": {
+          "Capacity": "N/A",
+          "Output Ports": "0",
+          "Fast Charging": "Yes",
+          "Weight": "150g"
+        },
+        "rating": 4.6,
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11-pro-max-.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Solar Power Bank 25K",
+        "price": 49.99,
+        "description": "Eco-friendly solar power bank for outdoor adventures.",
+        "stock": "in stock",
+        "specification": {
+          "Capacity": "25000mAh",
+          "Output Ports": "3",
+          "Fast Charging": "Yes",
+          "Weight": "450g"
+        },
+        "rating": 4.7,
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Portable Charger 30K Pro",
+        "price": 59.99,
+        "description": "High-performance portable charger with advanced features.",
+        "stock": "out of stock",
+        "specification": {
+          "Capacity": "30000mAh",
+          "Output Ports": "4",
+          "Fast Charging": "Yes",
+          "Weight": "500g"
+        },
+        "rating": 4.9,
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xs-max-new1.jpg"
+      },
+        {
+          "id": 14,
+          "name": "Mini Portable Charger 5K",
+          "price": 19.99,
+          "description": "Ultra-compact charger for emergency power on the go.",
+          "stock": "in stock",
+          "specification": {
+            "Capacity": "5000mAh",
+            "Output Ports": "1",
+            "Fast Charging": "No",
+            "Weight": "120g"
+          },
+          "rating": 4.4,
+          "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xr-new.jpg"
+        },
+        {
+          "id": 15,
+          "name": "Rugged Power Bank 20K",
+          "price": 54.99,
+          "description": "Durable power bank designed for extreme conditions.",
+          "stock": "out of stock",
+          "specification": {
+            "Capacity": "20000mAh",
+            "Output Ports": "2",
+            "Fast Charging": "Yes",
+            "Weight": "400g"
+          },
+          "rating": 4.8,
+          "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xs-new.jpg"
+        }
   ]
   

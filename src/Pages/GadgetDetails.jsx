@@ -1,11 +1,15 @@
-import { useLoaderData } from "react-router-dom";
+import {  useLoaderData, useParams } from "react-router-dom";
 import { IoMdStarHalf } from "react-icons/io";
 import { GiSelfLove } from "react-icons/gi";
 
 const GadgetDetails = () => {
     const details = useLoaderData();
-    console.log(details);
-    const {mainFeatures,releaseDate,others,image,name} = details.data;
+    const {id} = useParams();
+    const idInt = parseInt(id);
+    console.log(typeof idInt, details);
+    const clickAbleData =  details.find(phone => phone.id === idInt);
+    console.log(clickAbleData);
+    const {image,name,description,rating,stock,specification} = clickAbleData;
     return (
         <div className="mt-12">
              <div></div>
@@ -18,27 +22,24 @@ const GadgetDetails = () => {
                 </div>
                 <div className="p-9">
                    <p className="md:text-2xl text-xl font-bold">{name}</p>
-                   <button className=" mt-1 mb-1 rounded-xl border-2 border-[#309C08] p-1 font-semibold">In Stock</button>
-                   <p><span className="font-bold">ReleaseDate</span> : {releaseDate}</p>
-                   <p className="font-bold">MainFeatures : </p>
+                   <button className=" mt-1 mb-1 rounded-xl border-2 border-[#309C08] p-1 font-semibold">{stock}</button>
+                   <p><span className="font-bold">description</span> : {description}</p>
+                   <p className="font-bold">specification : </p>
                    <div>
-                    <ol>
-                        <li>{mainFeatures.chipSet}</li>
-                        <li>{mainFeatures.displaySize}</li>  
-                        <li>{mainFeatures.memory}</li>  
-                    </ol>
+                       <ul>
+                        {
+                            Object.entries(specification).map(([key, value]) => (
+                                <li key={key}>
+                                    <span className="font-semibold">{key} :</span> {value}
+                                </li>
+                            ))
+                        }
+                       </ul>
                    </div>
+                   
                    <div>
-                        <p className="font-bold">Sensor :</p>
-                        <ol>
-                            {mainFeatures.sensors.map((sen, index) => (
-                            <li key={index}>{index+1} : {sen}</li>
-                            ))}
-                        </ol>
-                   </div>
-                   <div className="flex gap-2 items-center">
-                    <p className="font-bold">Rating : </p>
-                    <p><IoMdStarHalf className="text-yellow-500" /></p>
+                    <p className="font-bold">Rating : {rating}</p>
+                    <p><IoMdStarHalf className="text-yellow-500"/></p>
                    </div>
                    {/* button */}
                    <div className="flex gap-3 items-center">
