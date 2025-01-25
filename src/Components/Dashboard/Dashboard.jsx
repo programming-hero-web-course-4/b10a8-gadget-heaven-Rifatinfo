@@ -8,8 +8,13 @@ import ReadList from "./ReadList";
 const Dashboard = () => {
     const [readListPhone, setReadListPhone] = useState([]);
     const [WishListPhone, setWishListPhone] = useState([]);
+    const [price , setPrice] = useState(0);
     const allPhones = useLoaderData();
     console.log(allPhones);
+
+    useEffect(() => {
+        setPrice(readListPhone.reduce((total, {price}) => total + price , 0))
+    }, [readListPhone]);
 
     useEffect(() => {
         const storedReadList = getStoredReadList();
@@ -78,7 +83,7 @@ const Dashboard = () => {
             <div className="md:flex md:justify-between md:items-center grid-cols-1 mt-5 max-w-6xl mx-auto p-1">
                 <p className="text-xl font-bold">Cart : {readListPhone.length}</p>
                 <div className="flex gap-3 items-center">
-                    <div><p className="font-bold text-sm md:text-lg">Total Price <span>74646</span></p></div>
+                    <div><p className="font-bold text-sm md:text-lg">Total Price <span>{price}</span></p></div>
                     <button className="px-1 py-[6px] md:py-2 md:px-4 border-2 border-[#9538E2] text-[#9538E2] rounded-xl font-medium text-sm md:text-[16px]">sort by price</button>
                     <button className="px-2 py-2 md:py-2 md:px-3 border rounded-xl bg-[#9538E2] text-white text-sm md:text-[16px]">purchase</button>
                 </div>
