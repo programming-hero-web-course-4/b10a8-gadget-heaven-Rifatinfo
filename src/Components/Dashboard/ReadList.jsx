@@ -1,9 +1,9 @@
 import { RxCrossCircled } from "react-icons/rx";
 
 
-const ReadList = ({phone}) => {
+const ReadList = ({phone, deleteBtnReadList}) => {
     console.log(phone);
-    const {image, name, price} = phone;
+    const {image, name, price, id} = phone;
     return (
         <div>
             <div className="flex justify-between gap-3 shadow-lg border rounded-xl p-2 md:w-[500px]">
@@ -17,7 +17,8 @@ const ReadList = ({phone}) => {
                     </div>
                 </div>
                 {/* delete */}
-                <div><RxCrossCircled className="text-red-700 text-2xl font-bold" /></div>
+                                            <div><RxCrossCircled onClick={() => {deleteBtnReadList(id)}}
+                className="text-red-700 text-2xl font-bold" /></div>
             </div>
         </div>
     );

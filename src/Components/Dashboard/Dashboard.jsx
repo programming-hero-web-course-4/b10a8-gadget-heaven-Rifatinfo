@@ -25,6 +25,12 @@ const Dashboard = () => {
         setWishListPhone(WishList);
     }, []);
 
+    const deleteBtnReadList = id =>{
+        const remove = readListPhone.filter(phone => phone.id != id);
+        setReadListPhone(remove);
+    }
+   
+
     return (
         <div>
             <div className="h-60 border w-full bg-[#9538E2]">
@@ -54,13 +60,13 @@ const Dashboard = () => {
                             <TabPanel>
                                 <div className="grid grid-cols-1 gap-3">
                                     {
-                                        readListPhone.map(phone => <ReadList key={phone.id} phone={phone}></ReadList>)
+                                        readListPhone.map(phone => <ReadList deleteBtnReadList={deleteBtnReadList}  key={phone.id} phone={phone}></ReadList>)
                                     }
                                 </div>
                             </TabPanel>
                             <TabPanel>
                                 <div className="grid grid-cols-1 gap-3">
-                                    {WishListPhone.map(phone => <ReadList key={phone.id} phone={phone}></ReadList>)}
+                                    {WishListPhone.map(phone => <ReadList  key={phone.id} phone={phone}></ReadList>)}
                                 </div>
                             </TabPanel>
                         </div>
