@@ -56,7 +56,6 @@ const Dashboard = () => {
     const handleClick = () => {
         handleClearAllDataInShoppingCart();
         routeChange();
-
       };
     return (
         <div>
