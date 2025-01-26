@@ -1,3 +1,4 @@
+
 import { Link, useLoaderData} from "react-router";
 
 const Home = () => {
@@ -11,8 +12,8 @@ const Home = () => {
                 <div className="w-4/5 border">
                     <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:grid-4">
                         {
-                            gadgets.map(gadget => <>
-                                <div className="card bg-base-100 shadow-xl">
+                            gadgets.map(gadget => 
+                                <div key={gadget.id} className="card bg-base-100 shadow-xl">
                                     <figure>
                                         <img
                                             src={gadget.image}
@@ -28,7 +29,7 @@ const Home = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </>)
+                            )
                         }
                     </div>
                 </div>
