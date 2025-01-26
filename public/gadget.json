@@ -12,7 +12,8 @@
         "Camera": "108MP Triple Camera"
       },
       "rating": 4.8,
-      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-mini.jpg"
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-mini.jpg",
+      "type" : "phone"
     },
     {
       "id": 2,
@@ -27,7 +28,8 @@
         "Charging Case": "24 hours additional playback"
       },
       "rating": 4.7,
-      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro.jpg"
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro.jpg",
+      "type" : "phone"
     },
     {
       "id": 3,
@@ -42,7 +44,8 @@
         "HDR": "Dolby Vision"
       },
       "rating": 4.9,
-      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro-max.jpg"
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro-max.jpg",
+      "type" : "phone"
     },
     {
       "id": 4,
@@ -57,7 +60,8 @@
         "Storage": "1TB SSD"
       },
       "rating": 4.6,
-      "image":"https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg"
+      "image":"https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg",
+      "type" : "phone"
     },
     {
       "id": 5,
@@ -72,7 +76,8 @@
         "Connectivity": "Bluetooth 5.0"
       },
       "rating": 4.5,
-      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max-.jpg"
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max-.jpg",
+      "type" : "phone"
     },
     {
       "id": 6,
@@ -87,7 +92,8 @@
         "Weight": "500g"
       },
       "rating": 4.4,
-      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro--.jpg"
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro--.jpg",
+      "type" : "phone"
     },
     {
       "id": 7,
@@ -102,7 +108,8 @@
         "Video Quality": "4K"
       },
       "rating": 4.7,
-      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg"
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg",
+      "type" : "phone"
     },
     {
       "id": 8,
@@ -117,7 +124,8 @@
         "Compatibility": "iOS, Android"
       },
       "rating": 4.6,
-      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-mini.jpg"
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-mini.jpg",
+      "type" : "phone"
     },
     {
       "id": 9,
@@ -132,7 +140,8 @@
         "Weight": "350g"
       },
       "rating": 4.8,
-      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-se-2020.jpg"
+      "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-se-2020.jpg",
+      "type" : "phone"
     },
       {
         "id": 10,
@@ -147,7 +156,8 @@
           "Weight": "200g"
         },
         "rating": 4.5,
-        "image":"https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11-pro.jpg"
+        "image":"https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11-pro.jpg",
+        "type" : "phone"
       },
       {
         "id": 11,
@@ -162,7 +172,8 @@
           "Weight": "150g"
         },
         "rating": 4.6,
-        "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11-pro-max-.jpg"
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11-pro-max-.jpg",
+        "type" : "phone"
       },
       {
         "id": 12,
@@ -177,7 +188,8 @@
           "Weight": "450g"
         },
         "rating": 4.7,
-        "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11.jpg"
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11.jpg",
+        "type" : "phone"
       },
       {
         "id": 13,
@@ -192,7 +204,8 @@
           "Weight": "500g"
         },
         "rating": 4.9,
-        "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xs-max-new1.jpg"
+        "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xs-max-new1.jpg",
+        "type" : "phone"
       },
         {
           "id": 14,
@@ -207,7 +220,8 @@
             "Weight": "120g"
           },
           "rating": 4.4,
-          "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xr-new.jpg"
+          "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xr-new.jpg",
+          "type" : "phone"
         },
         {
           "id": 15,
@@ -222,7 +236,8 @@
             "Weight": "400g"
           },
           "rating": 4.8,
-          "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xs-new.jpg"
+          "image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xs-new.jpg",
+          "type" : "phone"
         },
         {
           "id": 16,
@@ -238,7 +253,8 @@
             "Storage": "512GB SSD"
           },
           "rating": 4.7,
-          "image": "https://images.unsplash.com/photo-1559163179-3fd017552229?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMxfHxsYXB0b3B8ZW58MHx8MHx8fDA%3D"
+          "image": "https://images.unsplash.com/photo-1559163179-3fd017552229?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMxfHxsYXB0b3B8ZW58MHx8MHx8fDA%3D",
+          "type" : "phone"
         },
         {
           "id": 17,
@@ -255,7 +271,8 @@
             "GPU": "NVIDIA RTX 3080 8GB"
           },
           "rating": 4.9,
-          "image": "https://plus.unsplash.com/premium_photo-1681666713641-8d722b681edc?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM3fHxsYXB0b3B8ZW58MHx8MHx8fDA%3D"
+          "image": "https://plus.unsplash.com/premium_photo-1681666713641-8d722b681edc?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM3fHxsYXB0b3B8ZW58MHx8MHx8fDA%3D",
+          "type" : "phone"
         },
         {
           "id": 18,
@@ -271,7 +288,8 @@
             "Storage": "256GB SSD"
           },
           "rating": 4.5,
-          "image": "https://plus.unsplash.com/premium_photo-1681566925827-d1969127dd3d?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODl8fGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D"
+          "image": "https://plus.unsplash.com/premium_photo-1681566925827-d1969127dd3d?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODl8fGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D",
+          "type" : "phone"
         },
         {
           "id": 19,
@@ -288,7 +306,8 @@
             "GPU": "NVIDIA RTX 3070 6GB"
           },
           "rating": 4.8,
-          "image": "https://images.unsplash.com/photo-1593642634524-b40b5baae6bb?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODR8fGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D"
+          "image": "https://images.unsplash.com/photo-1593642634524-b40b5baae6bb?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODR8fGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D",
+          "type" : "phone"
         },
         {
           "id": 20,
@@ -303,7 +322,8 @@
             "Water Resistance": "IPX7"
           },
           "rating": 4.6,
-          "image": "https://img.freepik.com/free-photo/top-view-virtual-reality-headset-white-headphones_23-2148912739.jpg"
+          "image": "https://img.freepik.com/free-photo/top-view-virtual-reality-headset-white-headphones_23-2148912739.jpg",
+          "type" : "phone"
         },
         {
           "id": 21,
@@ -318,7 +338,8 @@
             "Weight": "300g"
           },
           "rating": 4.8,
-          "image": "https://img.freepik.com/free-photo/cotton-wrist-band-smart-watch-earphone-white-background_1387-787.jpg"
+          "image": "https://img.freepik.com/free-photo/cotton-wrist-band-smart-watch-earphone-white-background_1387-787.jpg",
+          "type" : "phone"
         },
         {
           "id": 23,
@@ -333,7 +354,8 @@
             "Compatibility": "Windows, macOS"
           },
           "rating": 4.7,
-          "image": "https://img.freepik.com/free-photo/elevated-view-camera-lens-spiral-notebook-cellphone-personal-accessories-background_23-2147856120.jpg"
+          "image": "https://img.freepik.com/free-photo/elevated-view-camera-lens-spiral-notebook-cellphone-personal-accessories-background_23-2147856120.jpg",
+          "type" : "phone"
         },
         {
           "id": 24,
@@ -348,7 +370,8 @@
             "Compatibility": "Windows, macOS, Linux"
           },
           "rating": 4.5,
-          "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309682.jpg"
+          "image": "https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309682.jpg",
+          "type" : "phone"
         },
         {
           "id": 1,
@@ -364,7 +387,8 @@
             "Connectivity": "GPS + Cellular"
           },
           "rating": 4.8,
-          "image": "https://images.unsplash.com/photo-1617043983671-adaadcaa2460?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          "image": "https://images.unsplash.com/photo-1617043983671-adaadcaa2460?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "type" : "phone"
         },
         {
           "id": 2,
@@ -380,9 +404,8 @@
             "Connectivity": "Bluetooth 5.0"
           },
           "rating": 4.6,
-          "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1399&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1399&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "type" : "phone"
         }
-        
-        
   ]
   

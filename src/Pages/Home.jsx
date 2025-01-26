@@ -1,19 +1,28 @@
 
+import { useState } from "react";
 import { Link, useLoaderData} from "react-router";
 
 const Home = () => {
     const gadgets = useLoaderData();
-    console.log(gadgets);
-    // const {brand,phone_name,slug,image} = gadgets;
+    // console.log(gadgets);
+    const [sort, setSort] = useState([]);
+
+    const haandleSortingItem = (itemType) =>{
+        setSort(itemType);
+        if(itemType === "Laptops"){
+            const item = [...sort].sort((a, b) => a.name - b.name);
+            setSort(item);
+        }
+    }
     return (
         <div className="mt-10">
             <div className="border grid grid-cols-1 gap-2 md:flex md:gap-4">
                 <div className="w-full p-4 md:w-1/5 border shadow-lg rounded-lg">
                    <div className="md:grid md:grid-cols-1 md:gap-4 md:ml-8 grid grid-cols-2 gap-2">
-                      <button className="btn btn-outline text-[#9538E2]">Laptops</button>
-                      <button className="btn btn-outline text-[#9538E2]">Phones</button>
-                      <button className="btn btn-outline text-[#9538E2]">Accessories</button>
-                      <button className="btn btn-outline text-[#9538E2]">Smart Watches</button>
+                      <button onClick={() => haandleSortingItem("Laptops")} className="btn btn-outline text-[#9538E2]">Laptops</button>
+                      <button onClick={() => haandleSortingItem("Phones")} className="btn btn-outline text-[#9538E2]">Phones</button>
+                      <button onClick={() => haandleSortingItem("Accessories")} className="btn btn-outline text-[#9538E2]">Accessories</button>
+                      <button onClick={() => haandleSortingItem("Smart Watches")} className="btn btn-outline text-[#9538E2]">Smart Watches</button>
                    </div>
                 </div>
                 <div className="w-full md:w-4/5 border  shadow-lg rounded-lg">
