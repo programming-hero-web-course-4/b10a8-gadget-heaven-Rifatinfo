@@ -8,10 +8,11 @@ import ReadList from "./ReadList";
 const Dashboard = () => {
     const [readListPhone, setReadListPhone] = useState([]);
     const [WishListPhone, setWishListPhone] = useState([]);
+    const [sort ,  setSort] = useState([]);
     const [price , setPrice] = useState(0);
     const allPhones = useLoaderData();
-    console.log(allPhones);
-
+    console.log(allPhones, sort);
+   
     useEffect(() => {
         setPrice(readListPhone.reduce((total, {price}) => total + price , 0))
     }, [readListPhone]);
@@ -24,15 +25,22 @@ const Dashboard = () => {
         console.log(storedReadList, allPhones, storedReadListInt, storedWishListInt);
 
         const readList = allPhones.filter(phone => storedReadListInt.includes(phone.id));
-        const WishList = allPhones.filter(phone => storedWishListInt.includes(phone.id));
         console.log(readList);
         setReadListPhone(readList);
-        setWishListPhone(WishList);
-    }, []);
+    }, [allPhones]);
 
     const deleteBtnReadList = id =>{
         const remove = readListPhone.filter(phone => phone.id != id);
         setReadListPhone(remove);
+    }
+
+    const sortingHandle = (sortType) =>{
+         setSort(sortType);
+             
+         if(sortType === "price"){
+             const sortingPrice = [...readListPhone].sort((a,b) => b.price - a.price)
+             setReadListPhone(sortingPrice);
+         }
     }
    
 
@@ -84,7 +92,7 @@ const Dashboard = () => {
                 <p className="text-xl font-bold">Cart : {readListPhone.length}</p>
                 <div className="flex gap-3 items-center">
                     <div><p className="font-bold text-sm md:text-lg">Total Price <span>{price}</span></p></div>
-                    <button className="px-1 py-[6px] md:py-2 md:px-4 border-2 border-[#9538E2] text-[#9538E2] rounded-xl font-medium text-sm md:text-[16px]">sort by price</button>
+                    <button onClick={() => sortingHandle("price")} className="px-1 py-[6px] md:py-2 md:px-4 border-2 border-[#9538E2] text-[#9538E2] rounded-xl font-medium text-sm md:text-[16px]">sort by price</button>
                     <button className="px-2 py-2 md:py-2 md:px-3 border rounded-xl bg-[#9538E2] text-white text-sm md:text-[16px]">purchase</button>
                 </div>
             </div>

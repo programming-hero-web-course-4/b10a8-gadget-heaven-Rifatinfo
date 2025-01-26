@@ -51,8 +51,8 @@ const GadgetDetails = () => {
                    </div>
                    {/* button */}
                    <div className="flex gap-3 items-center">
-                   <button onClick={() => handAddToCart(id)} className="bg-[#9538E2] text-white px-4 py-3 rounded-xl mt-2">Add To Cart</button>
-                   <p onClick={() => handleWishList(id)} className="text-2xl border rounded-full p-2 bg-slate-100 mt-2"> <GiSelfLove className="cursor-pointer" /></p>
+                   <button onClick={() => handAddToCart(id)} className="btn hover:text-black bg-[#9538E2] text-white px-4 py-3 rounded-xl mt-2">Add To Cart</button>
+                   <p onClick={() => handleWishList(id)} className="btn text-2xl border rounded-full p-2 px-3 bg-slate-100 mt-2"> <GiSelfLove className="cursor-pointer" /></p>
                    </div>
                 </div>
              </div>
