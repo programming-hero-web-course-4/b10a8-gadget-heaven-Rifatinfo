@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useLoaderData } from "react-router";
+import { useLoaderData, useNavigate } from "react-router";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import { getStoredReadList, getStoredWishList } from "../../Utility/localstorage";
@@ -11,7 +11,7 @@ const Dashboard = () => {
     const [sort ,  setSort] = useState([]);
     const [price , setPrice] = useState(0);
     const allPhones = useLoaderData();
-    console.log(allPhones, sort);
+    console.log(allPhones, sort, setWishListPhone);
    
     useEffect(() => {
         setPrice(readListPhone.reduce((total, {price}) => total + price , 0))
@@ -45,7 +45,19 @@ const Dashboard = () => {
    
     const handleClearAllDataInShoppingCart = () => {
         setReadListPhone([]); // Clears all items in the array
+        localStorage.clear();
     };
+
+    let navigate = useNavigate();
+    const routeChange = () =>{
+        let path = `/`;
+        navigate(path);
+    }
+    const handleClick = () => {
+        handleClearAllDataInShoppingCart();
+        routeChange();
+
+      };
     return (
         <div>
             <div className="h-60 border w-full bg-[#9538E2]">
@@ -108,7 +120,7 @@ const Dashboard = () => {
                         <div className="modal-action w-full">
                         <form method="dialog">
                             {/* if there is a button in form, it will close the modal */}
-                            <button onClick={handleClearAllDataInShoppingCart} className="btn md:px-52 px-28">Close</button>
+                            <button onClick={handleClick} className="btn md:px-52 px-28">Close</button>
                         </form>
                         </div>
                     </div>
