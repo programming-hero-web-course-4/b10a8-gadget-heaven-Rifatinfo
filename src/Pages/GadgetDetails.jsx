@@ -19,7 +19,7 @@ const GadgetDetails = () => {
         addToStoredWishList(id);
     }
     return (
-        <div className="mt-12">
+        <div className="mt-12 md:ml-80 md:max-w-7xl md:mx-auto">
              <div></div>
 
              {/* gadget information  */}
