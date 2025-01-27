@@ -253,7 +253,7 @@
             "Storage": "512GB SSD"
           },
           "rating": 4.7,
-          "image": "",
+          "image": "https://img.freepik.com/free-photo/front-view-notebook-cup-coffee-inspiration-mock-up-concept_155003-8540.jpg?t=st=1737975558~exp=1737979158~hmac=10fc97b6cee5208200a2dd124e0294c8b0f70697ea767dfa8ebfb3253098de72&w=740",
           "type" : "Laptops"
         },
         {
@@ -271,7 +271,7 @@
             "GPU": "NVIDIA RTX 3080 8GB"
           },
           "rating": 4.9,
-          "image": "",
+          "image": "https://img.freepik.com/free-photo/front-view-laptop-with-stationery-elements_23-2148223257.jpg?t=st=1737975497~exp=1737979097~hmac=f1a294769e84c60a95822d45896bdfcea858082ec49887d4965f52553a60b79c&w=740",
           "type" : "Laptops"
         },
         {
@@ -288,7 +288,7 @@
             "Storage": "256GB SSD"
           },
           "rating": 4.5,
-          "image": "",
+          "image": "https://img.freepik.com/free-photo/open-laptop-desk-online-study-screen_1163-2578.jpg?t=st=1737975455~exp=1737979055~hmac=4d9bf681b39b80f42dd27a6b28817acff94b4700afa3c227f0e76bc3502fd0c6&w=740",
           "type" : "Laptops"
         },
         {
@@ -306,7 +306,7 @@
             "GPU": "NVIDIA RTX 3070 6GB"
           },
           "rating": 4.8,
-          "image": "",
+          "image": "https://img.freepik.com/free-photo/laptop-near-cacti_23-2147768832.jpg?t=st=1737975778~exp=1737979378~hmac=f5152be25a9bff12b270cc4d35bcbda1730fcae07c23190131c8037a1d266414&w=740",
           "type" : "Laptops"
         },
         {
@@ -387,7 +387,7 @@
             "Connectivity": "GPS + Cellular"
           },
           "rating": 4.8,
-          "image": "",
+          "image": "https://img.freepik.com/free-photo/close-up-hand-using-smartwatch_23-2148994193.jpg",
           "type" : "Smart Watches"
         },
         {
@@ -404,7 +404,7 @@
             "Connectivity": "Bluetooth 5.0"
           },
           "rating": 4.6,
-          "image": "",
+          "image": "https://img.freepik.com/free-photo/still-life-tech-device_23-2150722614.jpg?t=st=1737975245~exp=1737978845~hmac=8bda62a6ceea365542104a179f9307bc9c153a700bb2a14dfee804a6067ad644&w=740",
           "type" : "Smart Watches"
         }
   ]
