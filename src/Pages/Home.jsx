@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Link, useLoaderData } from "react-router";
-
+import Footer from "../Components/Footer/Footer"
 const Home = () => {
     const gadgets = useLoaderData();
     // console.log(gadgets);
@@ -68,6 +68,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 };

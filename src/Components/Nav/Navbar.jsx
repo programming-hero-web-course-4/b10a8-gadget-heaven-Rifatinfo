@@ -18,7 +18,7 @@ const Navbar = () => {
 
     return (
        <div className="bg-[#9538E2]">
-         <div className="relative max-w-6xl mx-auto">
+         <div className="relative max-w-6xl mx-auto ">
             {/* Menu Button for Mobile */}
             <div
                 onClick={() => setOpen(!open)}
@@ -29,24 +29,24 @@ const Navbar = () => {
 
             {/* Navbar Content */}
             <div
-                className={`md:flex md:justify-between md:items-center md:gap-10 transition-all  md:bg-transparent duration-300 ease-in-out 
+                className={` md:flex md:justify-between md:items-center md:gap-10 transition-all  md:bg-transparent duration-300 ease-in-out 
                 ${open ? "top-0 bg-[#9538E2]" : "-top-64"} absolute md:static w-full md:h-auto h-screen 
                 text-white md:text-black text-lg z-10`}
             >
                 {/* Logo Section */}
                 <div className="justify-center items-center md:flex hidden">
-                    <h1 className="text-xl font-semibold">Gadget Heaven</h1>
+                    <h1 className="text-xl font-semibold text-white">Gadget Heaven</h1>
                 </div>
 
                 {/* Navigation Links */}
-                <div className="flex flex-col md:flex-row items-center justify-center gap-4">
+                <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-white">
                     {routes.map((route) => (
                         <Nav route={route} key={route.id}></Nav>
                     ))}
                 </div>
 
                 {/* Icon Section */}
-                <div className="flex justify-center items-center gap-4 mt-6 md:mt-0">
+                <div className="flex justify-center items-center gap-4 mt-6 md:mt-0 text-white">
                     <FaCartShopping className="cursor-pointer" />
                     <GiSelfLove className="cursor-pointer" />
                     <Link to="/login" className="cursor-pointer">

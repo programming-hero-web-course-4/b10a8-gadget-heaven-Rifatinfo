@@ -1,6 +1,6 @@
 import { Outlet, useNavigation } from "react-router";
 import Navbar from "../Components/Nav/Navbar";
-import Footer from "../Components/Footer/Footer";
+// import Footer from "../Components/Footer/Footer";
 import { ThreeDots } from "react-loader-spinner";
 
 const Roots = () => {
@@ -27,7 +27,7 @@ const Roots = () => {
                         </div>
                     </> : <Outlet />
             }
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 };
