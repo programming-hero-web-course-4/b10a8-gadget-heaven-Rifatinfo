@@ -115,7 +115,7 @@ const Statistics = () => {
     ];
     return (
         <div>
-            <div className="h-60 border w-full bg-[#9538E2]">
+            <div className="h-44 border w-full bg-[#9538E2]">
                 <div className="text-center text-white space-y-4 mt-3">
                     <p className="md:text-2xl text-xl">Statistics</p>
                     <p className="text-sm md:text-lg">
