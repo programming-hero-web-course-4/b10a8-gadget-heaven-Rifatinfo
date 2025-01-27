@@ -8,6 +8,7 @@ import {
     Legend,
     ResponsiveContainer,
 } from "recharts";
+import Footer from "../Footer/Footer";
 const Statistics = () => {
     const data = [
         {
@@ -148,6 +149,7 @@ const Statistics = () => {
                     </BarChart>
                 </ResponsiveContainer>
             </div>
+            <Footer ></Footer>
         </div>
     );
 };
