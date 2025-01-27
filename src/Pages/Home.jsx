@@ -1,5 +1,5 @@
 
-
+import banner from '../assets/banner.jpg';
 import { useState } from "react";
 import { Link, useLoaderData } from "react-router";
 import Footer from "../Components/Footer/Footer"
@@ -27,8 +27,8 @@ const Home = () => {
                     <button className="btn btn-outline border-2 border-white text-white">Shop Now!</button>
                 </div>
             </div>
-            <div className="absolute z-10 md:top-80 top-[336px] md:left-28">
-                <img className="mx-auto md:w-[1110px] md:h-[611px] rounded-lg" src="../../src/assets/banner.jpg" alt="" />
+            <div className="absolute z-10 md:top-80 top-[336px] md:left-[380px]">
+                <img className="mx-auto md:w-[1110px] md:h-[611px] rounded-lg" src={banner} alt="" />
             </div>
             <div>
                 <p className="text-center font-bold md:text-xl text-lg md:mt-80 md:mb-10 mt-60 mb-5">Explore Cutting-Edge Gadgets</p>
