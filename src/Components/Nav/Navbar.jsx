@@ -17,7 +17,8 @@ const Navbar = () => {
     ];
 
     return (
-        <div className="relative max-w-6xl mx-auto">
+       <div className="bg-[#9538E2]">
+         <div className="relative max-w-6xl mx-auto">
             {/* Menu Button for Mobile */}
             <div
                 onClick={() => setOpen(!open)}
@@ -54,6 +55,7 @@ const Navbar = () => {
                 </div>
             </div>
         </div>
+       </div>
     );
 };
 

@@ -7,7 +7,7 @@ const Roots = () => {
     const navigation = useNavigation();
     return (
         <div>
-            <Navbar />
+            <Navbar  />
             {
                 navigation.state === "loading" ?
                     <>
