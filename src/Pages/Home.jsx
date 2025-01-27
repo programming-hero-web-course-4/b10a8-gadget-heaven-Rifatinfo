@@ -27,10 +27,13 @@ const Home = () => {
                     <button className="btn btn-outline border-2 border-white text-white">Shop Now!</button>
                 </div>
             </div>
-            <div className="absolute z-10 md:top-80 md:left-28">
+            <div className="absolute z-10 md:top-80 top-[336px] md:left-28">
                 <img className="mx-auto md:w-[1110px] md:h-[611px] rounded-lg" src="../../src/assets/banner.jpg" alt="" />
             </div>
-            <div className="grid grid-cols-1 gap-2 md:flex md:gap-4  max-w-7xl mx-auto mt-80">
+            <div>
+                <p className="text-center font-bold md:text-xl text-lg md:mt-80 md:mb-10 mt-60 mb-5">Explore Cutting-Edge Gadgets</p>
+            </div>
+            <div className="grid grid-cols-1 gap-2 md:flex md:gap-4  max-w-7xl mx-auto">
                 <div className="w-full p-4 md:w-1/5 border shadow-lg rounded-lg">
                     <div className="md:grid md:grid-cols-1 md:gap-4 md:ml-8 grid grid-cols-2 gap-2">
                         <button onClick={() => handleFilteringItem("All Accessories")} className="btn btn-outline text-[#9538E2]">All Accessories</button>

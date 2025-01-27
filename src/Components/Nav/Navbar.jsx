@@ -29,7 +29,7 @@ const Navbar = () => {
 
             {/* Navbar Content */}
             <div
-                className={`md:flex md:justify-between md:items-center md:gap-10 transition-all md:bg-transparent duration-300 ease-in-out 
+                className={`md:flex md:justify-between md:items-center md:gap-10 transition-all  md:bg-transparent duration-300 ease-in-out 
                 ${open ? "top-0 bg-[#9538E2]" : "-top-64"} absolute md:static w-full md:h-auto h-screen 
                 text-white md:text-black text-lg z-10`}
             >
